@@ -21,4 +21,8 @@ $(document).ready(function(){
         }
     });
 
+    $('#btn_1').click(function(){
+        $('#div_2').hide(5000);
+    });
+
 });
