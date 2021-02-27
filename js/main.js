@@ -1,11 +1,16 @@
 $(document).ready(function(){
- $('#btn-1').click(function(){
-    $('p').hide();
- });
+   $('#btn-show').hide();
+   $('#btn-hide').click(function(){
+        $('#description').hide();
+        $('#btn-show').show();
+   });
 
- $('#btn-2').click(function(){
-     $('p').show();
- });
+   $('#btn-show').click(()=>{
+        $('#description').show();
+        $('#btn-hide').show();
+        $('#btn-show').hide();
+   });
+
 });
 
 
