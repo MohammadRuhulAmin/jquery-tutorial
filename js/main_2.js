@@ -25,4 +25,8 @@ $(document).ready(function(){
         $('#div_2').hide(5000);
     });
 
+    $('#btn_2').click(()=>{
+        $('#div_3').toggle(3000);
+    });
+
 });
