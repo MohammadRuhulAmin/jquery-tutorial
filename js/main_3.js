@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $(".btn_1").click(function(){
-        $(".box_1").fadeIn();
+        $(".box_1").fadeToggle();
     });
     $(".btn_2").click(function(){
-        $(".box_2").fadeIn();
+        $(".box_2").fadeToggle('slow');
     });
     $(".btn_3").click(function(){
-        $(".box_3").fadeIn();
+        $(".box_3").fadeToggle(2000);
     });
 });
