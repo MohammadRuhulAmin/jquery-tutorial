@@ -1,5 +1,11 @@
 $(document).ready(function(){
-    $('#a').hide();
-    $('.about').hide();
-    $('.not').hide();
+ $('#btn-1').click(function(){
+    $('p').hide();
+ });
+
+ $('#btn-2').click(function(){
+     $('p').show();
+ });
 });
+
+
