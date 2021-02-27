@@ -42,9 +42,11 @@ $(document).ready(function(){
     $('#para_5').on({
         mouseenter:function(){
             $(this).css("font-size","25px");
+            $(this).css("color","red");
         },
         mouseleave:function(){
             $(this).css("font-size","10px");
+            $(this).css("color","green");
         }
     });
 
