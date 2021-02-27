@@ -32,9 +32,21 @@ $(document).ready(function(){
     $('#para_3').css("font-size","25px");
   });
 
-$('#div_2').dblclick(function(){
-    $('#para_4').css("font-size","26px");
-});
+    $('#div_2').dblclick(function(){
+        $('#para_4').css("font-size","26px");
+    });
+    $('#div_3').on('dblclick',function(){
+        $('#h_1').css("font-size","10px");
+    });
+
+    $('#para_5').on({
+        mouseenter:function(){
+            $(this).css("font-size","25px");
+        },
+        mouseleave:function(){
+            $(this).css("font-size","10px");
+        }
+    });
 
 
 
