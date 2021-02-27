@@ -1,0 +1,84 @@
+#btn_1{
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  padding: 3px;
+  text-shadow: 0pc;
+
+}
+
+#input_1 {
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: 10px;
+    margin: 10px;
+
+}
+
+#input_2{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#input_3{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btn_2{
+    width: 150px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  padding: 3px;
+  text-shadow: 0pc;
+}
+
+#btn_3{
+    width: 150px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  padding: 3px;
+  text-shadow: 0pc;
+}
+
+#custom_modal{
+    width: 800px;
+    background-color: burlywood;
+    display: none;
+}
+
+#btn_x{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 3px;
+    text-shadow: 0pc;
+}
+#message_1{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: green;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+   
+    display: none;
+    
+}
