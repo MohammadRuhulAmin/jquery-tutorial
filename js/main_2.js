@@ -28,5 +28,4 @@ $(document).ready(function(){
     $('#btn_2').click(()=>{
         $('#div_3').toggle(3000);
     });
-
 });

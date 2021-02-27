@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".btn_1").click(function(){
+        $(".box_1").fadeIn();
+    });
+    $(".btn_2").click(function(){
+        $(".box_2").fadeIn();
+    });
+    $(".btn_3").click(function(){
+        $(".box_3").fadeIn();
+    });
+});

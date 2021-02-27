@@ -1,0 +1,33 @@
+.box_1{
+    width: 500px;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding:10px;
+    display: none;
+}
+.box_2{
+    width: 500px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    padding:10px;
+    display: none;
+    
+}
+.box_3{
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px;
+    padding:10px;
+    display:none;
+}
+
+.btn_1{
+    width: 150px;
+    height: 40px;
+    color: red;
+    font-size: 25px;
+
+}
