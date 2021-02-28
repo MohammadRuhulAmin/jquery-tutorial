@@ -6,7 +6,7 @@ $(document).ready(function(){
  $('#btn_2').click(function(){
     $('#text_info').stop();
  });
-
+ 
  $('#btn_3').click(function(){
      $('#my_Div').hide('slow',function(){
         alert('ok done');
