@@ -21,7 +21,12 @@ $(document).ready(function(){
     });
 
     $('#style').click(function(){
-        $("#my_style_text").addClass("ruhul");
+        $("#my_style_text").addClass("ruhul about");
+
+    });
+
+    $('#style_2').click(function(){
+        $('#my_style_text_toggle').toggleClass("ruhul about");
     });
 
 });
