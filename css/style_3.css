@@ -1,0 +1,34 @@
+#btn_1{
+    width:500px ;
+
+    font-size: 15px;
+    padding:10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+
+}
+
+#text_info{
+    width: 500px;
+    background: gray;
+    border-radius: 5px;
+    border-color: black;
+    font-weight: bold;
+    font-family: 'comic';
+    padding:5px;
+    display: none;
+    overflow: hidden;
+  
+}
+
+#btn_2{
+    width:500px ;
+    font-size: 15px;
+    padding:10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+}
