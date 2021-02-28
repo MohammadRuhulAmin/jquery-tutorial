@@ -4,7 +4,7 @@ $(document).ready(function(){
     });
 
     $('#showText').click(function(){
-        alert("Message"+ $('#textInfo').text());
+        alert("Message"+ $('#textInfo').html());
     });
 
 
