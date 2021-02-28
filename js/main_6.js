@@ -11,5 +11,12 @@ $(document).ready(function(){
     $('#get_name').click(function(){
         alert($('#get_input_name').val());
     });
+    $('#btn_link').click(function(){
+        alert($('#link_1').attr("href"));
+    });
+
+    $('#my_btn').click(function(){
+        alert($('#my_h1').attr("id"));
+    });
 
 });
