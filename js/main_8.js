@@ -5,7 +5,6 @@ $(document).ready(function(){
     $('#btn_2').click(()=>{
         $('#para_1').prepend("Ruhul");
     });
-
     $('#before').click(function(){
         $('#para_2').before("hi ruhul amin");
     });
@@ -20,4 +19,9 @@ $(document).ready(function(){
     $('#remove').click(function(){
         $('#div_3').remove();
     });
+
+    $('#style').click(function(){
+        $("#my_style_text").addClass("ruhul");
+    });
+
 });
