@@ -3,5 +3,9 @@ $(document).ready(function(){
         $('#div_1').css("font-size","25px").slideUp(2000).slideDown(2000).hide(1000);
     });
 
+    $('#showText').click(function(){
+        alert("Message"+ $('#textInfo').text());
+    });
+
 
 });
