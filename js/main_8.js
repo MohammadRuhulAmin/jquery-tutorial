@@ -28,5 +28,12 @@ $(document).ready(function(){
     $('#style_2').click(function(){
         $('#my_style_text_toggle').toggleClass("ruhul about");
     });
+    $('#btn_dim').click(function(){
+        $('#dimention').css({
+            "font-size":"25px",
+            "color":"red",
+            "background":"green"   
+        }).width(500).height(50);
+    });
 
 });
