@@ -8,4 +8,8 @@ $(document).ready(function(){
     });
 
 
+    $('#get_name').click(function(){
+        alert($('#get_input_name').val());
+    });
+
 });
