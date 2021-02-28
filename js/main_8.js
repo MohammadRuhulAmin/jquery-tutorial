@@ -13,4 +13,11 @@ $(document).ready(function(){
         $('#para_2').after('Hi ruhul amin');
     });
 
+    $('#empty').click(function(){
+        $('#div_2').empty();
+    });
+
+    $('#remove').click(function(){
+        $('#div_3').remove();
+    });
 });
