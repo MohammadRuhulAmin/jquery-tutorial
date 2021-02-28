@@ -6,5 +6,11 @@ $(document).ready(function(){
         $('#para_1').prepend("Ruhul");
     });
 
+    $('#before').click(function(){
+        $('#para_2').before("hi ruhul amin");
+    });
+    $('#after').click(function(){
+        $('#para_2').after('Hi ruhul amin');
+    });
 
 });
