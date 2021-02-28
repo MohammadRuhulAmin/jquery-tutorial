@@ -23,5 +23,9 @@ $(document).ready(function(){
         $('#X-modal').fadeToggle();
     });
 
+    $('#btn_slide').click(()=>{
+        $('#div_slide').slideToggle();
+    });
+
 
 });
